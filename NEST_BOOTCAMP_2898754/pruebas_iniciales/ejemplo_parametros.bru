@@ -1,0 +1,16 @@
+meta {
+  name: ejemplo_parametros
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://localhost:3000/identificacion/3243243/nombre/Juliana?telefono=12345050&edad=15
+  body: none
+  auth: none
+}
+
+params:query {
+  telefono: 12345050
+  edad: 15
+}
